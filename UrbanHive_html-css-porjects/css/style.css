@@ -145,4 +145,153 @@ nav{
   }
 
 
+
+  /* <!-- product card style section start here --> */
+
   
+  .grid-container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+    max-width: 1250px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    
+    gap: 15px;
+}
+
+.single-product{
+ 
+
+    background-color: rgba(112, 128, 144, 0.281);
+    border-radius: 10px;
+    padding: 0 10px;
+    box-shadow: 2px 2px 4px black;
+}
+.single-product img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.product-icon-name-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-icon{
+    font-size: 20px;
+
+}
+.product-icon-name-container span{
+    padding: 10px;
+    background-color: #9376e0;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: white;
+}
+
+  
+ 
+
+  /* <!-- product card style section end here --> */
+
+
+  
+.discount-section{
+  background-color: #9376e0;
+  min-height: 500px;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.discount-container{
+  max-width: 1250px;
+  margin: 0 auto;
+
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+ 
+}
+.discount-img{
+  width: 50%;
+  position: relative;
+
+  
+}
+.discount-img img{
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.discount-text{
+  width: 50%;
+}
+.discount-number{
+  background-color: rgb(128, 128, 16);
+  height:90px;
+  width: 90px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+ top: 1%;
+ left: 63%;
+  
+}
+
+/* discount-section-design-ends-here */
+
+/* user-section-design-start-here */
+.review-container{
+
+ gap: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+
+}
+.single-review{
+  border: 1px solid green;
+  flex-basis: 300px;
+  background-color: #e893cf;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.single-review img{
+  width: 60px;
+  height: 60px;
+}
+.top-review{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+  
+ /* user-section-design-start-end */
+
+
+ /* footer section start here */
+
+ .card{
+  background-color: #9376e0;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 700;
+ }
+
+ .card-header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+
+

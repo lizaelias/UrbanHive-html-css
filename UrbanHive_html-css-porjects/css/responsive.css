@@ -1,6 +1,7 @@
 @media screen and (max-width: 400px){
 
- 
+
+
     /* navbar responsive start here  */
 
     .nav-container{
@@ -51,9 +52,33 @@
       .banner-text{
         margin-bottom:20px ;
 
+
+
       }
 
-      
+
+      /* card section respose strat here */
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    
+
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+
+
+      .discount-container{
+        flex-direction: column;
+    }
+    .discount-img,.discount-text{
+        width: 100%;
+    }
+       
+
+     
+    
+    
      
     
 
