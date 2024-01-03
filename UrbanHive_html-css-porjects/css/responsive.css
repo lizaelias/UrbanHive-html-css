@@ -1,14 +1,12 @@
 @media screen and (max-width: 400px){
 
-
+ 
+    /* navbar responsive start here  */
 
     .nav-container{
 
         flex-direction: column;
-      
-        
-    
-    }
+     }
 
   
     .nav-container-title{
@@ -33,5 +31,34 @@
     .nav-login{
         text-align: center;
     }
+
+     /* navbar responsive end here  */
     
+     .banner-container{
+        flex-direction: column;
+
+        
+      }
+      .banner-text h1{
+        font-size: 20px; 
+        width: 300px;
+        
+        
+      
+        
+      }
+
+      .banner-text{
+        margin-bottom:20px ;
+
+      }
+
+      
+     
+    
+
+      
+     
+
+
 }
